@@ -23,14 +23,22 @@ public class MainActivity extends AppCompatActivity {
 
         image1 = findViewById(R.id.card1);
         image2 = findViewById(R.id.card2);
+
+        image1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Period_tracker_activity.class));
+            }
+        });
+
+        image2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //startActivity(new Intent(getApplicationContext(), Period_tracker_activity.class));
+            }
+        });
     }
 
-    public void onClickCard(View view)
-    {
-        if(image1.callOnClick())
-            startActivity(new Intent(this, Period_tracker_activity.class));
-        else if(image2.callOnClick())
-            startActivity(new Intent(this, Period_tracker_activity.class));
-    }
+
 
 }
