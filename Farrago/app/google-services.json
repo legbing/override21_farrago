@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927700499081",
+    "project_id": "farrago-f0d92",
+    "storage_bucket": "farrago-f0d92.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927700499081:android:d2b83a19674da41a0ae458",
+        "android_client_info": {
+          "package_name": "com.example.farrago"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927700499081-dfmfv3qnim6uobbe2c130fi27m1lth99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBg6UN01ua10lYPAfI3PniWSrjCc8GTCTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927700499081-dfmfv3qnim6uobbe2c130fi27m1lth99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -24,7 +24,9 @@ It is a one-stop solution to monitor your health, water intake, track your perio
 We designed it using Figma and the prototype was made using Framer X. We used Java and Android studio for the implementation of the app.
 
 ## Challenges we ran into
-There were definitely a few hiccups and we ran into quite a few problems. This is our first time building an app and we had trouble with android studio, it took us quite a bit of effort to get the hang of it and get the app up and running. 
+
+There were definitely a few hiccups and we ran into quite a few problems. This is our first time building an app and we had trouble with android studio, it took us quite a bit of effort to get the hang of it and get the app up and running. It was definitely a challenge to implement how much ever we got up
+
 
 ## Accomplishments that we're proud of
 We have learnt so much over the last few days, from designing using Figma and building a prototype. The implementation of the code was the hardest part and we're extremely proud to present-MeThree.
