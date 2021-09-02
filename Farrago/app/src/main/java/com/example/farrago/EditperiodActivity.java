@@ -22,11 +22,13 @@ public class EditperiodActivity extends AppCompatActivity {
     Button save;
     EditText editText2;
 
+    //int date = getIntent().getIntExtra("Current date", 0);
     @RequiresApi(api = Build.VERSION_CODES.N)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_editperiod);
+
 
         textView = findViewById(R.id.date_chosen);
         imageButton = findViewById(R.id.button_dtp);
@@ -60,10 +62,16 @@ public class EditperiodActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String due = editText.getText().toString();
                 String next = editText2.getText().toString();
+                //String present = textView.getText().toString();
+                //Intent intent = getIntent();
                 Intent intent = new Intent();
-                intent.putExtra("Duration", due);
-                intent.putExtra("Next date", next);
-                startActivity(intent);
+                //Intent intent = new Intent(v.getContext(), Period_tracker_activity.class);
+                intent.putExtra("Duration", Integer.valueOf(due));
+                intent.putExtra("Next date", Integer.valueOf(next));
+                //intent.putExtra("Present date", date);
+                setResult(RESULT_OK, intent);
+                finish();
+                //startActivity(intent);
             }
         });
 

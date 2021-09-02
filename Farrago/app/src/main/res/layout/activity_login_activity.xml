@@ -8,14 +8,31 @@
     tools:context=".Login_activity"
     android:orientation="vertical">
 
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Back"
+        android:textColor="#DE5050"
+        android:textSize="36sp"
+        android:translationX="100dp"
+        android:translationY="50dp" />
 
+
+    <ImageView
+        android:layout_width="371dp"
+        android:layout_height="251dp"
+        android:src="@drawable/loginimage"
+        android:translationX="30dp"
+        android:translationY="91dp" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="Username/email" />
+        android:hint="Username/email"
+        android:translationY="151dp"/>
 
     <EditText
         android:id="@+id/password"
@@ -25,11 +42,22 @@
         android:hint="Password" />
 
     <Button
-        android:layout_width="match_parent"
+        android:id="@+id/login"
+        android:layout_width="382dp"
         android:layout_height="wrap_content"
         android:layout_margin="50dp"
-        android:text="Login"
-        android:id="@+id/login" />
+        android:width="72dp"
+        android:height="47dp"
+        android:text="SIGN IN"
+        android:textColor="#FFFFFF"
+        android:translationX="-30dp"
+        android:translationY="70dp"
+        app:backgroundTint="#DE5050"
+        app:cornerRadius="10dp" />
+
+
+
+
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"

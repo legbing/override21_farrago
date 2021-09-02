@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         image2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(getApplicationContext(), Period_tracker_activity.class));
+                startActivity(new Intent(getApplicationContext(), CounsellorListActivity.class));
             }
         });
     }

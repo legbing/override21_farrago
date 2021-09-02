@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Farrago">
-        <activity android:name=".EditperiodActivity"></activity>
+        <activity android:name=".CounsellorListActivity"></activity>
+        <activity android:name=".EditperiodActivity" />
         <activity android:name=".WaterActivity" />
         <activity android:name=".Login_activity" />
         <activity android:name=".MainActivity" />
